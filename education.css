@@ -1,0 +1,82 @@
+
+.education{
+    background-color: #f8e3bf;
+    width: 100%;
+    height: 110vh;
+}
+.content_23{
+    display: flex;
+}
+.edupart1{
+    display: flex;
+}
+.edu {
+font-size: 60px;
+position: relative;
+top: 5vw;
+left: 9.2vw;
+font-style: italic;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+.see{
+    position: relative;
+    top: 7.8vw;
+    left: 9.2vw;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.edu_pic1{
+    background-image: url("https://wallpapercave.com/wp/wp2003357.jpg");
+    background-size: cover;
+    height: 40vh;
+    width: 35vw;
+    position: relative;
+    left: 8vw;
+    top: 8vw;
+    border-radius: 15px;
+    transition: all 0.2s ease 0s;
+}
+.edu_pic2{
+    background-image: url("https://www.businesscoachchicago.com/wp-content/uploads/2018/07/education.jpg");
+    background-size: cover;
+    height:32vh;
+    width: 31vw;
+    position: relative;
+    border-radius: 10px;
+    left: 10vw;
+    top: 10vw;
+    transition: all 0.2s ease 0s;
+}
+
+.edu_pic3{
+    background-image: url("https://www.kingskyfa.com/wp-content/uploads/2020/10/graduation-hat-on-stack-of-books-1024x683.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100vh; 
+    position: relative;
+    left: 10vw;
+    /* top: 0.5vw; */
+    border-radius: 15px;
+    transition: all 0.2s ease 0s;
+}
+.edu_pic1:hover{
+    transform: scale(1.05);
+}
+.edu_pic2:hover{
+    transform: scale(1.05);
+}
+.edu_pic3:hover{
+    transform: scale(1.05);
+}
+.quote23{
+    background-color: white;
+    max-width: fit-content;
+    position: relative;
+    left: 40vw;
+    font-size: 22px;
+    z-index: 100;
+    top: -15px;
+}

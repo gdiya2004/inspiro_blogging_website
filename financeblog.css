@@ -1,0 +1,339 @@
+#navbarextend{
+    height: 55vh;
+    background-color: black;
+    width: 100vw;
+}
+#blogtitle{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#sociallinks{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    margin-left: 5vh;
+}
+#sociallinks a{
+    text-decoration: none;
+    color: white;
+}
+#sociallinks div{
+    background-color: black;
+    border: 1px solid white;
+    height: 3vh;
+    width: 3vh;
+    padding: 0.5vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+    transform: scale(1.5);
+}
+#author{
+    color: white;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 5vh;
+}
+#authorimg{ width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    
+    
+}
+#authorname{
+    font-family: 'Poppins', sans-serif;
+}
+#readtime{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15vh;
+    font-family: 'Poppins', sans-serif;
+}
+#date{
+    margin-right: 10vh;
+    font-family: 'Poppins', sans-serif;
+}
+#content{
+    width: 100vw;
+    height: 500vh;
+    display: flex;
+    flex-direction: row;
+}
+#contentleft{
+    width: 25vw;
+    border: 1px;
+    background-color: beige;
+    height: 720vh;
+}
+#contentright{
+    width: 25vw;
+    border: 1px;
+    height: 720vh;
+    
+}
+#contentmain{
+    width: 50vw;
+    border: 1px;
+    font-size: 1.2em;
+    margin: 5vh;
+    margin-top: 10vh;
+    text-align: justify;
+    overflow: hidden;
+    height: 780vh;
+    font-family: 'Poppins', sans-serif;
+}
+#toc{
+    position: sticky;
+    top:15vh;
+    bottom: 30vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+#toc a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#img4 img{
+ width: 50vw;
+}
+#img3 img{
+ width: 50vw;
+}
+#img1 img{
+    width: 50vw;
+    
+}
+/* #gridbox{
+    display: grid;
+    grid-template-columns: 5vw 5vw 5vw 5vw ;
+    grid-template-rows: 5vw 5vw ;
+    grid-gap: 5.5vh;
+    margin-bottom: 10vh
+   
+}
+#grid1{
+    background-color: pink;
+
+}
+#grid2{
+    background-color: pink;
+}
+#grid3{
+    background-color: pink;
+}
+#grid4{
+    background-color: pink;
+} */
+.feedback_body18 h1{
+    margin-top: 5vh;
+    
+    font-size: 45px;
+    
+    text-align: center;
+    
+}
+.feedback18{
+    height: 100vh;
+    background-color:rgba(255,165,0,0.8);
+    margin-top: 20vh;
+}
+.username18{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+}
+.username18 input{
+    height: 3vw;
+    width: 25vw;
+}
+.username18 i{
+   font-size: 28px; 
+   position: relative;
+   left: 0.5vw;
+   top: 0.2vw;
+
+}
+.username18 ::placeholder{color:black;
+    font-family: 'Poppins', sans-serif;}
+.Email18{
+    display: flex;
+    justify-content: center;
+}
+.Email18 input{
+    position: relative;
+    top: 1vw;
+    left: 0.15vw;
+    height: 3vw;
+    width: 25vw;
+}
+.Email18 i{
+   font-size: 28px; 
+   position: relative;
+   left: 0.6vw;
+   top: 1.4vw;
+
+}
+.Email18 ::placeholder{color:black;
+    font-family: 'Poppins', sans-serif;}
+.Comments18 {
+    display: flex;
+    justify-content: center;
+}
+.Comments18 textarea{
+    position: relative;
+    top: 2vw;
+    left: 0.15vw;
+    height: 8vw;
+    width: 25vw;
+}
+.Comments18 i{
+    font-size: 28px; 
+    position: relative;
+    left: 0.6vw;
+    top: 3vw;
+}
+.Comments18 ::placeholder{color:black;
+    font-family: 'Poppins', sans-serif;}
+
+.subbut18{
+    position: relative;
+    left: 24vw ;
+    top: 4.5vw;
+    height: 3vw;
+    width: 5.4vw;
+    font-size: 18px;
+}
+.subbut18:hover{
+    background-color: #009688;
+}
+#relatedblog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.related{
+    width:30vh;
+    height: 10vw;
+    background-color: transparent;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    
+}
+.related a{
+    text-decoration: none;
+    color: red;
+}
+.related:hover{
+    transform: scale(1.03);
+}
+#related1{
+    
+    height: 80%;
+    background-color:black;
+    background-image: url("1.png");
+    background-size: cover;
+    
+}
+#related2{
+    height: 80%;
+    background-color:black;
+    background-image: url("2.png");
+    background-size: cover;
+}
+#related3{
+    height: 80%;
+    background-color:black;
+    background-image: url("4.png");
+    background-size: cover;
+}
+.readmore{
+    height: 10vw;
+    width: 20vw;
+    margin: 2vh;}
+.readmore img{
+    height: 4vw;
+    width: 4vw;
+
+
+}
+.readmore div{
+    display: flex;
+    align-items: center;
+}
+#read{
+    position: sticky;
+    top:15vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    
+}
+#footer{
+    position: relative;
+    bottom: -250vh;
+}
+.waves18{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    background:url('wave.png');
+}
+.waves18 #wave118{
+    
+    opacity: 1;
+    
+    animation: animatewaves 4s linear infinite;
+}
+@keyframes animatewaves{
+0%{background-position-x:1000px;}
+100%{
+    background-position-x:0px ;
+}
+}
+.waves18 #wave218{
+    
+    opacity: 0.5;
+    
+    animation: animatewaves_2 3s linear infinite;
+}
+@keyframes animatewaves_2{
+0%{background-position-x:0px;}
+100%{
+    background-position-x:1000px ;
+}
+}
+.waves18 #wave318{
+    
+    opacity: 0.2;
+    
+    animation: animatewaves_2 4s linear infinite;
+}
+
+.waves18 #wave418{
+
+    opacity: 0.7;
+    
+    animation: animatewaves 3s linear infinite;
+}
+#fcontainer18{
+    
+    width: 100vw;
+    display: flex;
+    
+    justify-content: center;
+    height: 30vh;
+    background-color: #3586FF;
+}

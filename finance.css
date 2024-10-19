@@ -1,0 +1,101 @@
+ #financebody{
+    height: 110vh;
+    width: 100%;
+    display :flex;
+    background-color:rgb(244, 244, 221);
+}
+.financehead{
+    display: flex;
+}
+.financehead h1{
+    font-size: 60px;
+    position: relative;
+    top: 3vw;
+    left: 9.2vw; 
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seefinance{
+    position: relative;
+    top: 8.3vw;
+    left: 9.9vw; 
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.financepic1{
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2021/04/15/75170/finance-08.jpg");
+    background-size: cover;
+    height: 35vw;
+    width: 45vw;
+    position: relative;
+     left: 8vw;
+    top: 5vw;  
+    border: 2px solid white;
+    border-radius: 25px;
+    transition: all 0.2s ease 0s;
+}
+.img23finance{
+    display: flex;
+}
+.financeimg2{
+    background-image: url("https://wallpapercave.com/wp/wp2446263.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height:20vw;
+    position: relative;
+    top: 12vw;
+    left: 9vw;
+    border-radius: 15px;
+    transition: all 0.2s ease 0s;
+
+}
+.financeimg3{
+    background-image: url("https://c1.wallpaperflare.com/preview/972/400/963/money-home-coin-investment.jpg");
+    background-size: cover;
+    height: 18vw;
+    width: 25vw;
+    position: relative;
+    left: 10vw;
+    top: 13.5vw;
+    border-radius: 15px;
+    transition: all 0.2s ease 0s;
+
+}
+.financeimg4{
+    height: 18vw;
+    width: 15vw;
+    position: relative;
+    left: 36vw;
+    top: -5vw;
+    border-radius: 15px;
+    transition: all 0.2s ease 0s;
+
+}
+.financeimg4 pre{
+    color: black;
+    font-size: 18px;
+    position: relative;
+    top: 1vw;
+    background-color: rgb(255, 251, 251);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+
+}
+.img34finance{
+    display: flex;
+}
+.financepic1:hover{
+    transform: scale(1.05);
+}
+.financeimg2:hover{
+    transform: scale(1.05);
+}
+.financeimg3:hover{
+    transform: scale(1.05);
+}
+.financeimg4:hover{
+    transform: scale(1.05);
+}

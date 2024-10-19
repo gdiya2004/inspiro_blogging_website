@@ -1,0 +1,529 @@
+*{font-family: 'Poppins',sans-serif;}
+.lifestyle_body{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+}
+.life_heading{
+    color: white;
+    padding: 5vw;
+}
+.life_heading h1{
+    text-align: center;
+    font-size: 65px;
+}
+.life_heading span{
+    text-align: center;
+    font-size: 35px;
+    margin-left: 30vw;
+}
+.lifedate{
+    color: white;
+    text-align:center;
+    position: relative;
+    top: 4vw;
+    left: 25vw;
+}
+.readlife{
+    color: white;
+    text-align:right;
+    margin-right: 3vw;
+    padding-top: 2.5vw;
+}
+.lifesociallinks{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+   
+}
+.lifesociallinks a{
+    color: white;
+    text-decoration: none;
+}
+.lifesociallinks div{
+    background-color: black;
+    border: .5px solid white;
+    transform: scale(1.5);
+    margin: 1vw;
+    padding: .5vw;
+    border-radius: 50%;
+    height: 2vh;
+    width: 2vh;
+    position: relative;
+    bottom:3.5vw;
+    padding-top: 0.3vw;
+}
+.baani_life23{
+    display: flex;
+    width: 100%;
+   
+}
+.starting23{
+    width: 25%;
+    height:1100vh;
+    background-color: #ede6ce;
+}
+.maincontent23{
+    width: 50%;
+    margin: 5vh;
+   background-color: white;
+    height:800vh;
+    font-family: 'poppins',sans-serif;
+   font-size: 1.2em;
+    
+}
+.ending23{
+    width: 25%;
+    height: 1100vh;
+}
+.piclife{
+    display: flex;
+}
+.pic1{
+    background-image: url("fighter\ plane.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20vw;
+    width: 32vw;
+    margin-top: 5vw;
+
+}
+.pic2{
+    background-image: url("Air\ Force.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 26vw;
+    width: 28vw
+
+}
+.intro_23{
+    line-break: loose;
+    display: flex;
+    justify-content: center;
+    
+   
+    margin-top: 2vw;
+}
+.introcon23{
+   
+    text-align: justify;
+}
+.head23{
+  
+    margin-top: 3vw;
+}
+
+.teamphoto{
+    background-image:url("teamphoto.jpg") ;
+    background-size: cover;
+    width:100%;
+    height: 30vw;
+    margin-top: 7vw;
+    
+    border: 2px solid black;
+}
+.teamcontent{
+  
+    
+    margin-top: 2vw;
+    text-align: justify;
+}
+.team_life23 h1{
+    margin-top: 3vw;
+
+/* font-size: 20px; */
+}
+.sub1{
+    margin-top: 2vw;
+    /* margin-bottom: 2vvw; */
+}
+.day1{
+    margin-top: 2vw;
+    text-align: justify;
+}
+.teamhead2{
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 2vw;
+}
+.sub1{
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 2vw;
+}
+
+.teamcon2{
+    margin-top: 2vw;
+    text-align: justify;
+}
+
+.day3 h1{
+   
+    margin-top: 2vw;
+}
+.teamphoto2{
+    background-image:url("gto.jpg") ;
+    background-size: cover;
+    width:100%;
+    height: 30vw;
+    margin-top: 7vw;
+    
+    /* border: 2px solid black; */
+}
+.snakrace{
+   
+    margin-top: 2vw;
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 2vw;
+}
+.srace{
+   
+    margin-top: 2vw;
+    text-align: justify;
+}
+.img1pro{
+    
+    background-image: url("https://defencedirecteducation.com/wp-content/uploads/2022/01/ssb-gto-e1641643471584.jpg");
+    background-size: cover;
+    width:100%;
+    height: 30vw;
+    margin-top: 7vw;
+  
+}
+.img2pro{
+    
+    background-image: url("io2.jpg");
+    background-size: cover;
+    width:40%;
+    height: 20vw;
+    margin-top: 7vw;
+    
+}
+.img3pro{
+    background-image: url("io3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:50%;
+    height: 20vw;
+    position: relative;
+    top: -18.7vw;
+    left: 22.5vw;
+}
+.con4{
+    margin-top: -15vw;
+   
+}
+.photo23{
+    
+    margin-top: 2vw;
+    text-align: justify;
+}
+.con5{
+   
+    margin-top: 2vw;
+    text-align: justify;
+}
+.img4pro{
+    
+    background-image: url("myimg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 40vw;
+    margin-top: 3vw;
+    
+}
+.photo33{
+    margin-top: 2vw;
+    
+    text-align: justify;
+    font-family: 'Poppins',sans-serif;
+}
+.img5pro{
+    
+    background-image: url("https://www.ssbcrack.com/wp-content/uploads/2016/03/SSB-Conference.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 25vw;
+    margin-top: 3vw;
+   
+}
+.introcon23{
+    margin-top: 2vw;
+    
+}
+
+#contentright{
+    width: 25vw;
+    border: 1px;
+    height: 1060vh;
+    
+}
+#toc{
+    position: sticky;
+    top:15vh;
+   
+    margin-left: 5vh;
+    margin-top: 5vh;
+    
+}
+#toc a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.readmore div{
+    display: flex;
+    align-items: center;
+}
+
+
+.readmore{
+    height: 10vw;
+    width: 20vw;
+    margin: 2vh;}
+.readmore img{
+    height: 4vw;
+    width: 4vw;
+
+
+}
+.feedback_body18 h1{
+    margin-top: 5vh;
+    
+    font-size: 45px;
+    
+    text-align: center;
+    
+}
+.feedback18{
+    height: 70vh;
+    background-color:rgba(255,165,0,0.8);
+    margin-top: 20vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+.username18{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+}
+.username18 input{
+    height: 3vw;
+    width: 25vw;
+}
+.username18 i{
+   font-size: 28px; 
+   position: relative;
+   left: 0.5vw;
+   top: 0.2vw;
+
+}
+.username18 ::placeholder{color:black;
+    font-family: 'Poppins', sans-serif;}
+.Email18{
+    display: flex;
+    justify-content: center;
+}
+.Email18 input{
+    position: relative;
+    top: 1vw;
+    left: 0.15vw;
+    height: 3vw;
+    width: 25vw;
+}
+.Email18 i{
+   font-size: 28px; 
+   position: relative;
+   left: 0.6vw;
+   top: 1.4vw;
+
+}
+.Email18 ::placeholder{color:black;
+    font-family: 'Poppins', sans-serif;}
+.Comments18 {
+    display: flex;
+    justify-content: center;
+}
+.Comments18 textarea{
+    position: relative;
+    top: 2vw;
+    left: 0.15vw;
+    height: 8vw;
+    width: 25vw;
+}
+.Comments18 i{
+    font-size: 28px; 
+    position: relative;
+    left: 0.6vw;
+    top: 3vw;
+}
+.Comments18 ::placeholder{color:black;
+    font-family: 'Poppins', sans-serif;}
+
+.subbut18{
+    position: relative;
+    left: 24vw ;
+    top: 4.5vw;
+    height: 3vw;
+    width: 5.4vw;
+    font-size: 18px;
+}
+.subbut18:hover{
+    background-color: #009688;
+}
+
+
+.waves18{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    background:url('wave.png');
+}
+.waves18 #wave118{
+    
+    opacity: 1;
+    
+    animation: animatewaves 4s linear infinite;
+}
+@keyframes animatewaves{
+0%{background-position-x:1000px;}
+100%{
+    background-position-x:0px ;
+}
+}
+.waves18 #wave218{
+    
+    opacity: 0.5;
+    
+    animation: animatewaves_2 3s linear infinite;
+}
+@keyframes animatewaves_2{
+0%{background-position-x:0px;}
+100%{
+    background-position-x:1000px ;
+}
+}
+.waves18 #wave318{
+    
+    opacity: 0.2;
+    
+    animation: animatewaves_2 4s linear infinite;
+}
+
+.waves18 #wave418{
+
+    opacity: 0.7;
+    
+    animation: animatewaves 3s linear infinite;
+}
+#footer{
+    position: relative;
+    bottom: -25vh;
+}
+#fcontainer18{
+    
+    width: 100vw;
+    display: flex;
+    
+    justify-content: center;
+    height: 30vh;
+    background-color: #3586FF;
+}
+
+#relatedblog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.related{
+    width:30vh;
+    height: 10vw;
+    background-color: transparent;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    
+}
+.related a{
+    text-decoration: none;
+    color: red;
+}
+.related:hover{
+    transform: scale(1.03);
+}
+#related1{
+    
+    height: 80%;
+    /* background-color:black; */
+    background-image: url("1_1\ \(1\).png");
+    background-size: cover;
+    
+}
+#related2{
+    height: 80%;
+    /* background-color:black; */
+    background-image: url("2.png");
+    background-size: cover;
+}
+#related3{
+    height: 80%;
+    background-image: url("4.png");
+    background-size: cover;
+}
+.readmore{
+    height: 10vw;
+    width: 20vw;
+    margin: 2vh;}
+.readmore img{
+    height: 4vw;
+    width: 4vw;
+
+
+}
+.readmore div{
+    display: flex;
+    align-items: center;
+}
+#read{
+    position: sticky;
+    top:15vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    
+}
+#sublist{
+    margin-top: 1vw;
+    margin-left: 1vw;
+   
+}
+#sub23l{text-decoration: none;}
+
+
+
+#author{
+    color: white;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: -5vh;
+    position: relative;
+    left: 20vw;
+    top: -8vw;
+}
+#authorimg{ width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    
+    
+}
+#authorname{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+

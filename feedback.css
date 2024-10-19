@@ -1,0 +1,139 @@
+.feedback{
+    height: 90vh;
+    width: 100%;
+   
+    background-image: url("https://wallpapercave.com/wp/wp8483171.png");
+    background-size: cover;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#feedback_body{
+    height: 85vh;
+    width: 30vw;
+    border: 2px solid #009688;
+    border-radius: 5px;
+    /* background-color:; */
+    box-shadow: 0 0 55px #009688;
+    color: white;
+    background-color: black;
+
+}
+.feedback_body h1{
+    font-size: 45px;
+    position: relative;;
+    left: 5px;
+}
+.username{
+    display: flex;
+    justify-content: center;
+}
+.username input{
+    height: 3vw;
+    width: 25vw;
+}
+.username i{
+   font-size: 28px; 
+   position: relative;
+   left: 0.5vw;
+   top: 0.2vw;
+
+}
+.Email{
+    display: flex;
+    justify-content: center;
+}
+.Email input{
+    position: relative;
+    top: 1vw;
+    left: 0.15vw;
+    height: 3vw;
+    width: 25vw;
+}
+.Email i{
+   font-size: 28px; 
+   position: relative;
+   left: 0.6vw;
+   top: 1.4vw;
+
+}
+.Comments{
+    display: flex;
+    justify-content: center;
+}
+.Comments textarea{
+    position: relative;
+    top: 2vw;
+    left: 0.15vw;
+    height: 8vw;
+    width: 25vw;
+}
+.Comments i{
+    font-size: 28px; 
+    position: relative;
+    left: 0.6vw;
+    top: 3vw;
+}
+.Rating-of-site{
+    font-size: 35px;
+    position: relative;
+    top: 3vw;
+    left: 1vw;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    position:relative ;
+    top: 3vw;
+    /* background-color:black; */
+    transform: rotateY(180deg);
+}
+.rating input{
+     display:none; 
+}
+.rating label{
+    display: block;
+    cursor: pointer;
+    width: 7vh;
+}
+.rating label:before{
+    content: '\f005';
+   font-family: fontAwesome;
+   display: block;
+   font-size: 40px;
+   color: white;
+}
+.rating label:after{
+    content: '\f005';
+   font-family: fontAwesome;
+   display: block;
+   font-size: 40px;
+   color: #009688;
+   position: absolute;
+   top: 0;
+   opacity:0;
+   transition: .3s;
+   /* text-shadow: ; */
+}
+.rating label:hover:after,
+.rating label:hover~label:after,
+.rating input:checked~label:after {
+opacity: 1;
+}
+.subbut23{
+    position: relative;
+    left: 24vw ;
+    top: 4.5vw;
+    height: 3vw;
+    width: 5.4vw;
+    font-size: 18px;
+}
+.subbut23:hover{
+    background-color: #009688;
+}
+.subbut23 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
